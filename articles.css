@@ -1,0 +1,119 @@
+.author {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+}
+
+.date {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: #868686;
+    margin-top: auto;
+}
+
+.description {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+.previews-tags {
+    position: relative;
+}
+
+.preview {
+    border-radius: 16px 16px 0px 0px;
+    width: 100%;
+}
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    gap: 8px;
+    align-items: start;
+    color: #333;
+
+}
+
+.tag-category {
+    display: flex;
+    flex-direction: row;
+    border-radius: 24px;
+    border: 1px solid #C1C5CD;
+    background: rgba(255, 255, 255, 0.70);
+    justify-content: center;
+    align-items: center;
+    padding: 6px 8px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    gap: 4px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px 16px 16px 16px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    height: 499px;
+}
+
+.article-name-author {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.article-info {
+    display: flex;
+    position: relative;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.article-name-author-description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.articles-container-2-articles {
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: 2fr;
+    gap: 24px;
+    margin:auto;
+    padding-top: 24px;
+}
+
+.articles-container-3-articles {
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: auto;
+    gap: 24px;
+    margin:auto;
+}
+
+.content-articles-container{
+    display: grid;
+    gap: 24px;
+}
