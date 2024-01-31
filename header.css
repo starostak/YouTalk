@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1260px) {
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -13,13 +13,18 @@ header{
 .logo_header-menu {
     display: grid;
     grid-template-columns: 51px 704px;
-    grid-gap: 1vw;
+    grid-gap: 3vw;
     align-items: center;
 }
 
 .logo{
     justify-self: start;
 }
+
+.logo:hover {
+    opacity: 0.7;
+}
+
 .header-menu {
     display: flex;
     justify-content: center;
@@ -36,6 +41,10 @@ header{
     color:#333;
 }
 
+.chapter:hover{
+    opacity: 0.7;
+}
+
 .chapter-icon {
     display:flex;
     gap: 8px;
@@ -49,6 +58,10 @@ header{
     line-height: 114%; 
     letter-spacing: 0.25px;
     color:#333;
+}
+
+.chapter-icon:hover{
+    opacity: 0.7;
 }
 
 .primary-button {
@@ -69,4 +82,304 @@ header{
     border-radius: 4px;
     justify-self: end;
 }   
+
+.primary-button:hover{
+    color:#029187;
+    background-color: hsl(180, 24%, 82%);
 }
+
+.burger {
+    display: none;
+}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1260px){
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+        margin: auto 20px 0px 20px; 
+        height: 76px;
+        align-items: center;
+        justify-items: center;
+        
+    }
+    
+    .logo_header-menu {
+        display: grid;
+        grid-template-columns: 51px 704px;
+        grid-gap: 1vw;
+        align-items: center;
+    }
+    
+    .logo{
+        justify-self: start;
+    }
+    
+    .logo:hover {
+        opacity: 0.7;
+    }
+    
+    .header-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px; 
+    }
+    
+    .chapter {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 114%; 
+        letter-spacing: 0.25px;
+        color:#333;
+    }
+    
+    .chapter:hover{
+        opacity: 0.7;
+    }
+    
+    .chapter-icon {
+        display:flex;
+        gap: 8px;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0px;
+        margin: 0px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 114%; 
+        letter-spacing: 0.25px;
+        color:#333;
+    }
+    
+    .chapter-icon:hover{
+        opacity: 0.7;
+    }
+    
+    .primary-button {
+        display: flex;
+        width: 230px;
+        height: 48px;
+        padding: 14px 20px;
+        align-items: center;
+        gap: 10px;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color:#03B2A5;
+        background-color: #E3F5F5;
+        border-radius: 4px;
+        justify-self: end;
+    }   
+    
+    .primary-button:hover{
+        color:#029187;
+        background-color: hsl(180, 24%, 82%);
+    }
+
+    .burger {
+        display: none;
+    }
+
+    }
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+        header{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 1200px;
+            margin: auto 20px 0px 20px; 
+            height: 76px;
+            align-items: center;
+            justify-items: center;
+            
+        }
+        
+        .logo_header-menu {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-self: start;
+        }
+        
+        .logo{
+            justify-self: start;
+        }
+        
+        .logo:hover {
+            opacity: 0.7;
+        }
+        
+        .header-menu {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            gap: 16px; 
+        }
+        
+        .chapter {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 114%; 
+            letter-spacing: 0.25px;
+            color:#333;
+        }
+        
+        .chapter:hover{
+            opacity: 0.7;
+        }
+        
+        .chapter-icon {
+            display:flex;
+            gap: 8px;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 114%; 
+            letter-spacing: 0.25px;
+            color:#333;
+        }
+        
+        .chapter-icon:hover{
+            opacity: 0.7;
+        }
+        
+        .primary-button {
+            display: none;
+            width: 230px;
+            height: 48px;
+            padding: 14px 20px;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color:#03B2A5;
+            background-color: #E3F5F5;
+            border-radius: 4px;
+            justify-self: end;
+        }   
+        
+        .primary-button:hover{
+            color:#029187;
+            background-color: hsl(180, 24%, 82%);
+        }
+
+        .burger {
+            display: flex;
+            align-items: center;
+            justify-self: end;
+            justify-content: center;
+        }
+
+    }
+
+@media screen and (max-width: 768px){
+        header{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            max-width: 1200px;
+            margin: auto 20px 0px 20px; 
+            height: 76px;
+            align-items: center;
+            justify-items: center;
+            
+        }
+        
+        .logo_header-menu {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-self: start;
+        }
+        
+        .logo{
+            justify-self: start;
+        }
+        
+        .logo:hover {
+            opacity: 0.7;
+        }
+        
+        .header-menu {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            gap: 16px; 
+        }
+        
+        .chapter {
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 114%; 
+            letter-spacing: 0.25px;
+            color:#333;
+        }
+        
+        .chapter:hover{
+            opacity: 0.7;
+        }
+        
+        .chapter-icon {
+            display:flex;
+            gap: 8px;
+            justify-content: center;
+            align-items: flex-end;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 114%; 
+            letter-spacing: 0.25px;
+            color:#333;
+        }
+        
+        .chapter-icon:hover{
+            opacity: 0.7;
+        }
+        
+        .primary-button {
+            display: none;
+            width: 230px;
+            height: 48px;
+            padding: 14px 20px;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color:#03B2A5;
+            background-color: #E3F5F5;
+            border-radius: 4px;
+            justify-self: end;
+        }   
+        
+        .primary-button:hover{
+            color:#029187;
+            background-color: hsl(180, 24%, 82%);
+        }
+
+        .burger {
+            display: flex;
+            align-items: center;
+            justify-self: end;
+            justify-content: center;
+        }
+
+    }

@@ -1,0 +1,70 @@
+.full-content {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(7,minmax(0,1fr));
+    margin: auto;
+    max-width: 1200px;
+}
+
+h1 {
+    grid-column: span 2;
+}
+
+.info-author-date {
+    display: flex;
+    flex-direction: row;
+    grid-column: span 2;
+    gap: 8px;
+}
+
+.h1-info{
+    display: grid;
+    grid-column: span 2;
+    grid-gap: 24px;
+}
+
+.article-example-text{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color:hsla(0, 0%, 29%, 1);
+}
+
+.preview-article-example {
+    grid-column: span 2;
+    width: 100%;
+}
+
+.content-article {
+    display: grid;
+    grid-column: span 2;
+    grid-gap:16px;
+}
+
+h5 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color:rgba(51, 51, 51, 1);
+}
+
+.position-article {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #333;
+    display: flex;
+    gap:16px;
+    align-content: center;
+}
+
+.chapters-article {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
