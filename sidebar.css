@@ -1,3 +1,4 @@
+@media only screen and (min-width: 1024px) {
 .sidebar{
     display: flex;
     gap: 24px;
@@ -151,4 +152,506 @@
     position: absolute;
     top: 16px;
     left: 16px;
+    align-items: start;
+}
+
+.free {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    gap: 16px;
+    background-image: url('Images/Icons/presents.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    border-radius: 24px;
+    border: 1px solid #DEDEDE;
+}
+
+.heading-free {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    color: rgba(41, 99, 163, 1);
+}
+
+.text-free {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #011632;
+}
+
+.name-who-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.price {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.sidebar-button-2 {
+    display: flex;
+    width: 45%;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background-color:#35B3A9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFF;
+    white-space: nowrap;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    .sidebar{
+        display: none;
+        gap: 24px;
+        width: 100%;
+        flex-direction: row;
+        grid-row: 2;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    
+    .loading-windows {
+        display: flex;
+        flex-direction: column;
+        background-color: #E6F0FD;
+        text-align: center;
+        align-items: center;
+        gap: 24px;
+        padding: 24px;
+        border-radius: 16px;
+    }
+    
+    .sidebar-button-1 {
+        display: flex;
+        width: 100%;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 4px;
+        background-color:#35B3A9;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        color: #FFF;
+        white-space: nowrap;
+    }
+    
+    .all-text-sidebar{
+        display: flex;
+        flex-direction: column;
+        gap:8px;
+    }
+    
+    .h6-sidebar {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    
+    .sidebar-regular-text {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px
+    }
+    
+    .rounded-image{
+        border-radius: 60px;
+    }
+    
+    .specialist {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-radius: 16px;
+        border: 1px solid #DEDEDE;
+        background: #FFF;
+        padding: 24px;
+        gap:16px;
+    }
+    
+    .position-article-without-underline-sidebar{
+        display: flex;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        align-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #333333;
+    }
+    
+    .name-spec {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        color: #333;
+    }
+    
+    .who-spec {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        color: #333;
+    }
+    
+    .info-spec {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgba(162, 167, 177, 1);
+    }
+    
+    .heading-spec{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        color: #333;
+        
+    }
+    
+    .hr-spec{
+        background-color: #DEDEDE;
+        height: 1px;
+        width: 100%;
+        border: none;
+    }
+    
+    .heading-skills {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .attainment {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0.25px;
+        border-radius: 6px;
+        background: rgba(243, 244, 248, 0.70);
+        color: #333;
+        padding: 3px 6px;
+    }
+    
+    .attainments {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        align-items: start;
+    }
+    
+    .free {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        gap: 16px;
+        background-image: url('Images/Icons/presents.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        border-radius: 24px;
+        border: 1px solid #DEDEDE;
+    }
+    
+    .heading-free {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        color: rgba(41, 99, 163, 1);
+    }
+    
+    .text-free {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        color: #011632;
+    }
+    
+    .name-who-info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    
+    .price {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        color: rgba(51, 51, 51, 1);
+    }
+    
+    .sidebar-button-2 {
+        display: flex;
+        width: 45%;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 4px;
+        background-color:#35B3A9;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        color: #FFF;
+        white-space: nowrap;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:768px){
+    .sidebar{
+        display: none;
+        gap: 24px;
+        width: 100%;
+        flex-direction: row;
+        grid-row: 2;
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    
+    .loading-windows {
+        display: flex;
+        flex-direction: column;
+        background-color: #E6F0FD;
+        text-align: center;
+        align-items: center;
+        gap: 24px;
+        padding: 24px;
+        border-radius: 16px;
+    }
+    
+    .sidebar-button-1 {
+        display: flex;
+        width: 100%;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 4px;
+        background-color:#35B3A9;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        color: #FFF;
+        white-space: nowrap;
+    }
+    
+    .all-text-sidebar{
+        display: flex;
+        flex-direction: column;
+        gap:8px;
+    }
+    
+    .h6-sidebar {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    
+    .sidebar-regular-text {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px
+    }
+    
+    .rounded-image{
+        border-radius: 60px;
+    }
+    
+    .specialist {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-radius: 16px;
+        border: 1px solid #DEDEDE;
+        background: #FFF;
+        padding: 24px;
+        gap:16px;
+    }
+    
+    .position-article-without-underline-sidebar{
+        display: flex;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        align-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #333333;
+    }
+    
+    .name-spec {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        color: #333;
+    }
+    
+    .who-spec {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        color: #333;
+    }
+    
+    .info-spec {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        color: rgba(162, 167, 177, 1);
+    }
+    
+    .heading-spec{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        color: #333;
+        
+    }
+    
+    .hr-spec{
+        background-color: #DEDEDE;
+        height: 1px;
+        width: 100%;
+        border: none;
+    }
+    
+    .heading-skills {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .attainment {
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px;
+        letter-spacing: 0.25px;
+        border-radius: 6px;
+        background: rgba(243, 244, 248, 0.70);
+        color: #333;
+        padding: 3px 6px;
+    }
+    
+    .attainments {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        position: absolute;
+        top: 16px;
+        left: 16px;
+        align-items: start;
+    }
+    
+    .free {
+        display: flex;
+        padding: 24px;
+        flex-direction: column;
+        gap: 16px;
+        background-image: url('Images/Icons/presents.png');
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        border-radius: 24px;
+        border: 1px solid #DEDEDE;
+    }
+    
+    .heading-free {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        color: rgba(41, 99, 163, 1);
+    }
+    
+    .text-free {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        color: #011632;
+    }
+    
+    .name-who-info {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    
+    .price {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        color: rgba(51, 51, 51, 1);
+    }
+    
+    .sidebar-button-2 {
+        display: flex;
+        width: 45%;
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 4px;
+        background-color:#35B3A9;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        color: #FFF;
+        white-space: nowrap;
+    }
 }
