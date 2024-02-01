@@ -1,0 +1,154 @@
+.sidebar{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    grid-column: 4;
+}
+
+.loading-windows {
+    display: flex;
+    flex-direction: column;
+    background-color: #E6F0FD;
+    text-align: center;
+    align-items: center;
+    gap: 24px;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+.sidebar-button-1 {
+    display: flex;
+    width: 100%;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background-color:#35B3A9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #FFF;
+    white-space: nowrap;
+}
+
+.all-text-sidebar{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.h6-sidebar {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.sidebar-regular-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px
+}
+
+.rounded-image{
+    border-radius: 60px;
+}
+
+.specialist {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid #DEDEDE;
+    background: #FFF;
+    padding: 24px;
+    gap:16px;
+}
+
+.position-article-without-underline-sidebar{
+    display: flex;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #333333;
+}
+
+.name-spec {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: #333;
+}
+
+.who-spec {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #333;
+}
+
+.info-spec {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(162, 167, 177, 1);
+}
+
+.heading-spec{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #333;
+    
+}
+
+.hr-spec{
+    background-color: #DEDEDE;
+    height: 1px;
+    width: 100%;
+    border: none;
+}
+
+.heading-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.attainment {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    border-radius: 6px;
+    background: rgba(243, 244, 248, 0.70);
+    color: #333;
+    padding: 3px 6px;
+}
+
+.attainments {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}

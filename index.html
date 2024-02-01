@@ -15,10 +15,13 @@
     />
     <title>Youtalk blog</title>
   </head>
-  <bodyю>
+  <body>
     <header>
       <div class="logo_header-menu">
-        <img src="Images/Logo/logo.svg" alt="Логотип компании" class="logo"/>
+        <a href="index.html"
+          ><img src="Images/Logo/logo.svg" alt="Логотип компании" class="logo"
+        /></a>
+
         <nav>
           <ul class="header-menu">
             <li><a href="#" class="chapter">О нас</a></li>
@@ -38,9 +41,14 @@
         </nav>
       </div>
       <button class="primary-button">Подобрать психолога</button>
-      <button class="burger"><img src="Images/Icons/burger.svg" alt="Иконка обозначающая раскрытие меню"></button>
+      <button class="burger">
+        <img
+          src="Images/Icons/burger.svg"
+          alt="Иконка обозначающая раскрытие меню"
+        />
+      </button>
     </header>
-    <main>
+    <main class="background">
       <hr class="full-width-line" />
       <div class="content-container">
         <nav>
@@ -121,40 +129,46 @@
             <!-- article-info закрыт -->
           </div>
           <!-- article закрыт -->
-          <div class="article">
-            <a href="article-example.html">
-            <div class="previews-tags">
-              <img
-                src="Images/Photos/run.png"
-                alt="Человек будет по дороге в лесу"
-                class="preview"
-              />
-              <div class="tags">
-                <div class="tag-category">
-                  <img src="Images/Icons/Type=Unicorn.png" alt="Единорог" />Self
+          <a href="article-example.html">
+            <div class="article">
+              <div class="previews-tags">
+                <img
+                  src="Images/Photos/run.png"
+                  alt="Человек будет по дороге в лесу"
+                  class="preview"
+                />
+                <div class="tags">
+                  <div class="tag-category">
+                    <img
+                      src="Images/Icons/Type=Unicorn.png"
+                      alt="Единорог"
+                    />Self
+                  </div>
                 </div>
+                <!-- previews-tags закрыт -->
               </div>
-              <!-- previews-tags закрыт -->
-            </div>
-            <div class="article-info">
-              <div class="article-name-author-description">
-                <div class="article-name-author">
-                  <h3>Как не утонуть в тревоге и управлять своими страхами</h3>
-                  <p class="author">Автор: Екатерина Бельтюкова</p>
+              <div class="article-info">
+                <div class="article-name-author-description">
+                  <div class="article-name-author">
+                    <h3>
+                      Как не утонуть в тревоге и управлять своими страхами
+                    </h3>
+                    <p class="author">Автор: Екатерина Бельтюкова</p>
+                  </div>
+                  <!-- article-name-author закрыт -->
+                  <p class="description">
+                    Один из самых важных навыков, которые может дать работа с
+                    психотерапевтом - умение в разных ситуациях по-разному
+                    обходиться...
+                  </p>
                 </div>
-                <!-- article-name-author закрыт -->
-                <p class="description">
-                  Один из самых важных навыков, которые может дать работа с
-                  психотерапевтом - умение в разных ситуациях по-разному
-                  обходиться...
-                </p>
+                <p class="date">11.08.2021</p>
               </div>
               <!-- article-name-author-description закрыт -->
-            </a>
-              <p class="date">11.08.2021</p>
             </div>
-            <!-- article-info закрыт -->
-          </div>
+          </a>
+          <!-- article-info закрыт -->
+        </div>
         <!-- articles-container-2-articles закрыт -->
         <div class="articles-container-3-articles">
           <div class="article">
@@ -327,7 +341,7 @@
           <div class="article">
             <div class="previews-tags">
               <img
-                src="Images/Photos/mans.png"
+                src="Images/Photos/men.png"
                 alt="Вид сверху. Мужчины смотрят в разные стороны"
                 class="preview"
               />
@@ -357,7 +371,7 @@
           </div>
         </div>
       </div>
-      <button class="secondary-button">Ещё</button>
+      <button class="secondary-button-1">Ещё</button>
     </main>
   </body>
   <footer>
@@ -423,11 +437,10 @@
       </div>
     </div>
     <hr class="content-line" />
-      <ul class="content-bottom-footer">
-        <p class="copyright">©Youtalk, 2018 – 2022</p>
-        <button class="bottom-footer-chapter">Юридические документы</button>
-        <button class="bottom-footer-chapter">Способы оплаты</button>
-      </ul>
-    </div>
+    <ul class="content-bottom-footer">
+      <p class="copyright">©Youtalk, 2018 – 2022</p>
+      <button class="bottom-footer-chapter">Юридические документы</button>
+      <button class="bottom-footer-chapter">Способы оплаты</button>
+    </ul>
   </footer>
 </html>

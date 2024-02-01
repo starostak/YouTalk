@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="article-example.css">
+    <link rel="stylesheet" href="article-example.css" />
+    <link rel="stylesheet" href="sidebar.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
@@ -19,7 +20,9 @@
   <body>
     <header>
       <div class="logo_header-menu">
-        <img src="Images/Logo/logo.svg" alt="Логотип компании" class="logo"/>
+        <a href="index.html"
+          ><img src="Images/Logo/logo.svg" alt="Логотип компании" class="logo"
+        /></a>
         <nav>
           <ul class="header-menu">
             <li><a href="#" class="chapter">О нас</a></li>
@@ -39,7 +42,12 @@
         </nav>
       </div>
       <button class="primary-button">Подобрать психолога</button>
-      <button class="burger"><img src="Images/Icons/burger.svg" alt="Иконка обозначающая раскрытие меню"></button>
+      <button class="burger">
+        <img
+          src="Images/Icons/burger.svg"
+          alt="Иконка обозначающая раскрытие меню"
+        />
+      </button>
     </header>
     <main class="without-background">
       <hr class="full-width-line" />
@@ -55,37 +63,341 @@
               /></a>
             </li>
             <li>
-                <a href="#" class="breadcrumbs-arrow"
-                  >Блог<img
-                    src="Images/Icons/Arrow.svg"
-                    alt="Стрелка вправо"
-                    style="opacity: 0.7"
-                /></a>
-              </li>
-            <li><a href="#" class="breadcrumbs-chapter">Как не утонуть в тревоге и управлять своими страхами</a></li>
+              <a href="#" class="breadcrumbs-arrow"
+                >Блог<img
+                  src="Images/Icons/Arrow.svg"
+                  alt="Стрелка вправо"
+                  style="opacity: 0.7"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="breadcrumbs-chapter"
+                >Как не утонуть в тревоге и управлять своими страхами</a
+              >
+            </li>
           </ul>
         </nav>
         <div class="full-content">
-            <div class="h1-info">
-        <h1>Как не утонуть в тревоге и управлять своими страхами</h1>
-        <div class="info-author-date">
-            <p class="article-example-text">Автор: Лиза Файнтух</p>
-            <p class="article-example-author-point">&#183;</p>
-            <p class="article-example-text">21.08.2021</p>
+          <div class="h1-info">
+            <h1>Как не утонуть в тревоге и управлять своими страхами</h1>
+            <div class="info-author-date">
+              <p class="article-example-text">Автор: Лиза Файнтух</p>
+              <p class="article-example-author-point">&#183;</p>
+              <p class="article-example-text">21.08.2021</p>
+            </div>
+            <img
+              src="Images/Photos/girl-water-full.jpg"
+              alt="Девушка лежит на воде с закрытыми глазами"
+              class="preview-article-example"
+            />
+            <div class="content-article">
+              <h5>Содержание</h5>
+              <ul class="chapters-article">
+                <li class="position-article">
+                  <img
+                    src="Images/Icons/green-point.svg"
+                    class="green-point"
+                  />Как понять, что отношения с мамой были дисфункциональными и
+                  привели к травме?
+                </li>
+                <li class="position-article">
+                  <img
+                    src="Images/Icons/green-point.svg"
+                    class="green-point"
+                  />Как понять, что вы страдаете от материнской травмы?
+                </li>
+              </ul>
+              <h2>Заголовок H3</h2>
+              <p class="regular">
+                Один из самых важных навыков, которые может дать работа с
+                психотерапевтом - умение в разных ситуациях по-разному
+                обходиться со своими эмоциями. Снять этот процесс с автопилота и
+                перевести его в поле сознания. <br />Давайте, к примеру,
+                разберем тревогу. Можно разложить перед собой целую коллекцию
+                доступных реакций и выбрать нужную:<br />
+              </p>
+              <blockquote class="main-quote">
+                <p class="text-quote">
+                  Мы знаем, что нуждаться в помощи и поддержке в трудные периоды
+                  жизни абсолютно нормально для любого человека, и стремимся
+                  сделать психотерапию безопасной, удобной и доступной каждом
+                </p>
+                <img
+                  src="Images/Icons/graphic-quote.svg"
+                  class="graphic-quote"
+                />
+                <p class="author-quote">Ана Крымская</p>
+              </blockquote>
+              <h2>Что еще можно делать c тревогой?</h2>
+              <ul class="chapters-article">
+                <li class="position-article-without-underline">
+                  <img
+                    src="Images/Icons/green-point.svg"
+                    class="green-point"
+                  />Управлять ей через что-то внешнее: включать музыку, которая
+                  создает другое настроение, сесть за работу с цифрами, которая
+                  быстренько активизирует другие участки мозга, читать блоги,
+                  которые вас успокаивают и отвлекают.
+                </li>
+                <li class="position-article-without-underline">
+                  <img
+                    src="Images/Icons/green-point.svg"
+                    class="green-point"
+                  />А еще порой можно разрешить себе тревогу заесть чем-то
+                  вкусным. Это, конечно, не самая здоровая стратегия, но в ряде
+                  ситуаций можно считать ее вполне рабочей. Особенно, когда
+                  внутренний ресурс на нуле, а поддерживающее окружение не в
+                  доступе.
+                </li>
+              </ul>
+              <img
+                src="Images/Photos/2-men-article.jpg"
+                alt="Двое мужчин смотрят в разные стороны"
+                class="photo-content"
+              />
+              <p class="text-under-photo">
+                Онтогенез речи отражает групповой эриксоновский гипноз.
+              </p>
+              <p class="regular">
+                Чем шире доступный вам репертуар реакций и чем более осознанно
+                вы можете выбирать из него то, что лучше всего подойдет в каждой
+                конкретной ситуации, тем больше будет ваша устойчивость к
+                стрессу, депрессии, неопределенности, да и к жизни в целом.
+              </p>
+              <blockquote class="secondary-quote">
+                <p class="text-quote-2">
+                  Мы знаем, что нуждаться в помощи и поддержке в трудные периоды
+                  жизни абсолютно нормально для любого человека, и стремимся
+                  сделать психотерапию безопасной, удобной и доступной каждому
+                </p>
+              </blockquote>
+              <p class="regular">
+                Одна из ключевых задач психотерапии как раз и заключается в том,
+                чтобы этот репертуар расширять и обучать человека пользоваться
+                доступными ему реакциями в той последовательности, пропорции и
+                объеме, которые подходят именно ему. Без оглядки на то, "как
+                правильно" или "как у других".
+              </p>
+              <div class="photo-text">
+                <img
+                  src="Images/Photos/woman-hat.png"
+                  alt="Девушка в солнечных очках и шляпе"
+                  height="380px"
+                />
+                <p class="regular">
+                  Чем шире доступный вам репертуар реакций и чем более осознанно
+                  вы можете выбирать из него то, что лучше всего подойдет в
+                  каждой конкретной ситуации, тем больше будет ваша устойчивость
+                  к стрессу, депрессии, неопределенности, да и к жизни в целом.
+                  А еще порой можно разрешить себе тревогу заесть чем-то
+                  вкусным.
+                </p>
+              </div>
+              <p class="regular">
+                Чем шире доступный вам репертуар реакций и чем более осознанно
+                вы можете выбирать из него то, что лучше всего подойдет в каждой
+                конкретной ситуации, тем больше будет ваша устойчивость к
+                стрессу, депрессии, неопределенности, да и к жизни в целом.
+              </p>
+              <div class="exercise">
+                <h6>Упражнение 1</h6>
+                <p class="regular">
+                  Нужно последовательно напрягать и расслаблять каждую мышцу в
+                  теле на несколько секунд. Напрягать стоит довольно сильно,
+                  чтобы потом отчетливее ощущать расслабляющий эффект. Начать
+                  можно с пальцев ног и постепенно подниматься вверх. Смысл в
+                  том, чтобы через напряжение дать стрессу выход, а затем вновь
+                  привести себя в спокойное состояние через расслабление
+                </p>
+              </div>
+              <h2>Что еще можно делать с тревогой?</h2>
+              <ul class="chapters-article">
+                <li class="position-article-without-underline">
+                  <img
+                    src="Images/Icons/green-point.svg"
+                    class="green-point"
+                  />Управлять ей через что-то внешнее: включать музыку, которая
+                  создает другое настроение, сесть за работу с цифрами, которая
+                  быстренько активизирует другие участки мозга, читать блоги,
+                  которые вас успокаивают и отвлекают.
+                </li>
+                <li class="position-article-without-underline">
+                  <img
+                    src="Images/Icons/green-point.svg"
+                    class="green-point"
+                  />А еще порой можно разрешить себе тревогу заесть чем-то
+                  вкусным. Это, конечно, не самая здоровая стратегия, но в ряде
+                  ситуаций можно считать ее вполне рабочей. Особенно, когда
+                  внутренний ресурс на нуле, а поддерживающее окружение не в
+                  доступе.
+                </li>
+              </ul>
+              <div class="photo-text">
+                <img
+                  src="Images/Photos/hands.jpg"
+                  alt="Руки"
+                  width="281px"
+                  height="174px"
+                />
+                <p class="regular">
+                  Чем шире доступный вам репертуар реакций и чем более осознанно
+                  вы можете выбирать из него то, что лучше всего подойдет в
+                  каждой конкретной ситуации, тем больше будет ваша устойчивость
+                  к стрессу.
+                </p>
+              </div>
+              <div class="exercise-2">
+                <h6>Упражнение 2</h6>
+                <p class="regular">
+                  Нужно последовательно напрягать и расслаблять каждую мышцу в
+                  теле на несколько секунд. Напрягать стоит довольно сильно,
+                  чтобы потом отчетливее ощущать расслабляющий эффект. Начать
+                  можно с пальцев ног и постепенно подниматься вверх. Смысл в
+                  том, чтобы через напряжение дать стрессу выход, а затем вновь
+                  привести себя в спокойное состояние через расслабление
+                </p>
+              </div>
+              <div class="two-photo-text-vertical">
+                <div class="photo-text-vertical">
+                  <img
+                    src="Images/Photos/chair.jpg"
+                    alt="Стул"
+                    width="333px"
+                    height="235px"
+                  />
+                  <p class="regular">
+                    Чем шире доступный вам репертуар реакций и чем более
+                    осознанно вы можете выбирать из него то, что лучше всего
+                    подойдет в каждой конкретной ситуации, тем больше будет ваша
+                    устойчивость к стрессу, депрессии, неопределенности, да и к
+                    жизни в целом.
+                  </p>
+                </div>
+                <div class="photo-text-vertical">
+                  <img
+                    src="Images/Photos/sea.jpg"
+                    alt="Стул"
+                    width="333px"
+                    height="235px"
+                  />
+                  <p class="regular">
+                    Чем шире доступный вам репертуар реакций и чем более
+                    осознанно вы можете выбирать из него то, что лучше всего
+                    подойдет в каждой конкретной ситуации, тем больше будет ваша
+                    устойчивость к стрессу, депрессии, неопределенности, да и к
+                    жизни в целом.
+                  </p>
+                </div>
+              </div>
+              <img
+                src="Images/Icons/light.svg"
+                style="display: block; margin: auto"
+              />
+              <p class="regular">
+                Одна из ключевых задач психотерапии как раз и заключается в том,
+                чтобы этот репертуар расширять и обучать человека пользоваться
+                доступными ему реакциями в той последовательности, пропорции и
+                объеме, которые подходят именно ему. Без оглядки на то, "как
+                правильно" или "как у других".
+              </p>
+              <div class="exercise-3">
+                <h6>Упражнение 1</h6>
+                <p class="regular">
+                  Нужно последовательно напрягать и расслаблять каждую мышцу в
+                  теле на несколько секунд. Напрягать стоит довольно сильно,
+                  чтобы потом отчетливее ощущать расслабляющий эффект. Начать
+                  можно с пальцев ног и постепенно подниматься вверх. Смысл в
+                  том, чтобы через напряжение дать стрессу выход, а затем вновь
+                  привести себя в спокойное состояние через расслабление
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar">
+            <div class="loading-windows">
+              <img
+                src="Images/Icons/Illustration-people.png"
+                width="100%"
+                height="100%"
+              />
+              <div class="all-text-sidebar">
+                <h6 class="h6-sidebar">Загружаем свободные окошки</h6>
+                <p class="sidebar-regular-text">
+                  Все в порядке, сейчас мы перенаправим вас в сервис записи
+                  Qlick, через который удобно выбрать дату, время встречи и
+                  оплатить её
+                </p>
+              </div>
+              <button class="sidebar-button-1">Подробнее</button>
+            </div>
+            <div class="specialist">
+              <img
+                src="Images/Photos/photo-profile.png"
+                alt="Фотография специалиста"
+                class="rounded-image"
+              />
+              <div class="name-who-info">
+                <p class="name-spec">Лилия</p>
+                <p class="who-spec">Психолог</p>
+                <p class="info-spec">Опыт 6 лет &#183;&nbsp;43 года</p>
+              </div>
+              <hr class="hr-spec" />
+              <div class="heading-skills">
+                <p class="heading-spec">С чем работает психолог</p>
+                <ul class="skills-spec">
+                  <li class="position-article-without-underline-sidebar">
+                    <img
+                      src="Images/Icons/green-point.svg"
+                      class="green-point"
+                    />Тревога, тревожности
+                  </li>
+                  <li class="position-article-without-underline-sidebar">
+                    <img
+                      src="Images/Icons/green-point.svg"
+                      class="green-point"
+                    />Подавленность
+                  </li>
+                  <li class="position-article-without-underline-sidebar">
+                    <img
+                      src="Images/Icons/green-point.svg"
+                      class="green-point"
+                    />Тревога и панические атаки
+                  </li>
+                </ul>
+              </div>
+              <div class="attainments">
+                <div class="attainment">
+                  <img src="Images/Icons/paper.png" />
+                  <p class="attainments-text">Переписка</p>
+                </div>
+                <div class="attainment">
+                  <img src="Images/Icons/camera.png" />
+                  <p class="attainments-text">Видео</p>
+                </div>
+              </div>
+              <button class="sidebar-button-1">Подробнее</button>
+            </div>
+            <div class="present-image">
+              <img src="" alt="" />
+            </div>
+          </div>
         </div>
-        <img src="Images/Photos/girl-water-full.jpg" alt="Девушка лежит на воде с закрытыми глазами" class="preview-article-example">
-        <div class="content-article">
-            <h5>Содержание</h5>
-            <ul class="chapters-article">
-            <li class="position-article"><img src="Images/Icons/green-point.svg">Как понять, что отношения с мамой были дисфункциональными и привели к травме?</li>
-            <li class="position-article"><img src="Images/Icons/green-point.svg">Мама привет </li>
-
-           
-            </ul>
+      </div>
+      <hr class="content-line" />
+      <div class="ask">
+        <div class="ask-text">
+          <h1>Откликается проблема?</h1>
+          <p class="subtitle">
+            Поможем подобрать специалиста по работе с подобным запросом
+          </p>
+          <button class="secondary-button-2">Подобрать психолога</button>
         </div>
-    </div>
-        </div>
-        </div>
+        <img
+          src="Images/Icons/humans.svg"
+          alt="Векторная иллюстрация мужчины и женщины"
+          class="illustration"
+        />
+      </div>
     </main>
   </body>
   <footer>
@@ -151,14 +463,10 @@
       </div>
     </div>
     <hr class="content-line" />
-      <ul class="content-bottom-footer">
-        <p class="copyright">©Youtalk, 2018 – 2022</p>
-        <button class="bottom-footer-chapter">Юридические документы</button>
-        <button class="bottom-footer-chapter">Способы оплаты</button>
-      </ul>
-    </div>
+    <ul class="content-bottom-footer">
+      <p class="copyright">©Youtalk, 2018 – 2022</p>
+      <button class="bottom-footer-chapter">Юридические документы</button>
+      <button class="bottom-footer-chapter">Способы оплаты</button>
+    </ul>
   </footer>
 </html>
-
-
-  

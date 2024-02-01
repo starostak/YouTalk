@@ -132,7 +132,7 @@ h3 {
     color: #333333;
 }
 
-.secondary-button {
+.secondary-button-1 {
     display: flex;
     margin: 56px auto 96px auto;
     width: 182px;
@@ -147,6 +147,7 @@ h3 {
     font-weight: 700;
     line-height: 24px;
     color: #FFF;
+    white-space: nowrap;
 }
 
 .secondary-button:hover {
@@ -154,7 +155,7 @@ h3 {
 
 }
 
-main{
+.background{
     background-image: url('Images/Background/background.svg');
     background-position: center;
     background-size: 100% 100%;
